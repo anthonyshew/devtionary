@@ -24,9 +24,14 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.table-of-contents__link--active {
+  font-weight: 500;
+}
+
 /* Change Infima theme colors in dark mode */
 html[data-theme='dark'] {
-  --ifm-link-color: #A20292;
+  --ifm-color-primary: #CA02B6;
+  --ifm-link-color: #CA02B6;
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
