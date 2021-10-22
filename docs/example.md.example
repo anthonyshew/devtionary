@@ -1,0 +1,71 @@
+---
+sidebar_position: 1
+---
+
+:::note This is a template file.
+
+The items in this template file are meant for laying out a proper format.
+
+In order for your new word to make it into the dictionary, you must follow the template.
+:::
+
+# The New Word Goes Here
+
+## Beginner
+
+:::warning Required
+A beginner's version of the definition belongs here.
+
+For our beginner's definitions, we want to use as little other programming jargon as possible. We want these definitions to be accessible for even someone who is on day one of their programming journey.
+
+Of course, there are going to be definitions where you *just can't avoid* using other programming words/jargon. However, we should try to keep it to a minimum as much as we can. When you do find that you need to use other programming words, please link to them in the dictionary if we have them.
+:::
+
+## Intermediate
+
+:::caution Recommended
+An intermediate version of the definition belongs here.
+
+For our intermediate definitions, we are okay with __some__ other programming jargon. We want these definitions to be accessible for someone who has built up *some* experience.
+:::
+
+## Advanced
+
+:::caution Recommended
+An advanced version of the definition belongs here.
+
+For our advanced definitions, you can go into whatever depth you want.
+:::
+
+## Examples
+
+### In Code
+
+:::warning Required
+For a code example, we want to stick to a minimum respresentation of this word to be helpful in understanding what it means.
+:::
+
+```
+const string = "this is a string"
+let str = "another string"
+let s = "A string could even contain other non-alphebetics characters like numbers (123) and symbols!
+```
+
+### In Conversation
+
+:::caution Recommended
+Here, we want to describe this term in non-programming. Use a metaphor or a real-world example to explain a little bit better.
+:::
+
+:::tip Please use a blockquote.
+:::
+
+> If I was trying to provide a conversational example of version control (like Git), I may describe it using a metaphor comparing Git to writing an essay.
+> When you write an essay, you have several different versions of the work that you are writing. If you wanted to keep track of the versions that you are writing, you may keep different copies of it around for other people to edit if you are working in a team. Eventually, you would want all of your different version to come together and you would have a system for doing so. In programming, that system is called version control.
+
+
+## Resources for More Info
+
+:::caution Recommended
+Here, we want to describe this term in non-programming. Use a metaphor or a real-world example to explain a little bit better.
+:::

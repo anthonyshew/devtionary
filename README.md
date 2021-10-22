@@ -16,6 +16,10 @@ To request a word, use the Github issue template LINK.
 
 See the Local Development section
 
+### For new words...
+
+Take a look at /docs/example.md.example to find the template for a new word!
+
 ## Local Development
 
 Devtionary is built using Docusaurus, a React.js documentation framework.
