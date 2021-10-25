@@ -6,40 +6,49 @@ sidebar_position: 1
 
 ## Beginner
 
-Boolean is a logical entity that has two value: <span style={{color: "purple"}}><em>true</em></span> or <span style={{color: "purple"}}><em>false</em></span>.
+In all computer science, a `boolean` is a data type that can only be assigned either `true` or `false`.
 
 ## Intermediate
 
-Boolean conditionals are often used to decide which sections of code to execute or repeat.
+A primitive that can be used in a binary fashion. It's two values are: `true` and `false`.
+
+In Javascript, all values can be evaluated as `true` or `false`. Check the <a href="/docs/javascript/data-types/boolean#in-code">"In Code" section</a> for more information on which values are "truthy" or "falsy."
 
 ## Advanced
 
-Booleans are most commonly used in <span style={{color: "purple"}}>if statements</span> and <span style={{color: "purple"}}>for loops</span>
+The primitive values of `true` and `false`.
+
+In Javascript, the `Boolean` object is a wrapper for a boolean value.
+
+All values in Javascript have "truthiness" or "falsiness" and can be casted to a boolean. Through the use of the `Boolean` object, a value can be tested to be truthy or falsy and casted to the associated `true` or `false` value.
+
+Check the <a href="/docs/javascript/data-types/boolean#in-code">"In Code" section</a> for more information on which values are "truthy" or "falsy."
 
 ## Examples
 
 ### In Code
 
 ```
-const isBoolean = true
 let myBoolean = false
 var yourBoolean = true
 
-if (boolean conditional) {
-    // execute this code if boolean is true
-}
+let thisNumber = 0 // false
+let thatNumber = 42 // true
 
-// Example
-if (yourBoolean) {
-    console.log("My boolean is true")
-    // expected result is to log "My boolean is true" because yourBoolean = true.
-}
+let myString = "this is a string" // true
+let yourString = "" // false
+
+let foo = null // false
+let bar = undefined // false
+let baz = NaN // false
 ```
 
 ### In Conversation
 
-> You yourself uses booleans everyday. Before you do something your brain processes if you should do it. When your brain says yes let's carry out this process, you do it. The alternative, you don't carry out the process. Booleans are most commonly used to carry out functions(processes) or loops.
+> You use booleans every day throughout real life. A simple "yes" or "no" is an example of a boolean. You would probably recognize "yes" as a "truthy" value and "no" as a "falsy" value.
 
 ## Resources for More Info
 
-> Boolean compares to real world logic. For instance, take your light switch, if the switch is on (boolean is true), you expect there to be light (code to execute). If the switch is off (boolean is false), you expect there to not be any light (code will not execute).
+<div><a href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean" target="_blank" rel="noopener noreferrer">MDN - Boolean primitive</a></div>
+
+<div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean" target="_blank" rel="noopener noreferrer">MDN - Boolean Object</a></div>
