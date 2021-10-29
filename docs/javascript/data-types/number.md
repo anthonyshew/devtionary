@@ -132,10 +132,9 @@ false - true // yields -1
 ## Resources for More Info
 <div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number" target="_blank" rel="noopener noreferrer">MDN - Number Object</a></div>
 
+<div><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=6z7GQewK-Ks">Youtube - Coding Train MandelBrot Set</a></div>
 
-<div><a href="https://www.youtube.com/watch?v=6z7GQewK-Ks">Youtube - Coding Train MandelBrot Set</a></div>
+<div><a target="_blank" rel="noopener noreferrer" href="https://medium.com/developers-arena/type-coercion-in-javascript-c973b369b272">Medium - Type Coercion</a></div>
 
-<div><a href="https://medium.com/developers-arena/type-coercion-in-javascript-c973b369b272">Medium - Type Coercion</a></div>
-
-<div><a href="https://blog.soulserv.net/javascript-nan-demystified/">NaN Demystified</a></div>
+<div><a target="_blank" rel="noopener noreferrer" href="https://blog.soulserv.net/javascript-nan-demystified/">NaN Demystified</a></div>
 
