@@ -28,7 +28,7 @@ Check the <a href="/docs/javascript/data-types/boolean#in-code">"In Code" sectio
 
 ### In Code
 
-```
+```js
 let myBoolean = false
 var yourBoolean = true
 
