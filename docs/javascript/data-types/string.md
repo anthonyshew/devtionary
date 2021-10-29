@@ -20,7 +20,7 @@ Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
 ## Examples
 
 ### In Code
-```
+```js
 const string = "this is a string"
 ```
 
