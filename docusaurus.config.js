@@ -48,7 +48,7 @@ const config = {
           alt: 'Devtionary',
           src: 'img/logo.svg',
           srcDark: 'img/logo_dark_mode.svg',
-          href: 'https://anthonyshew.github.io/devtionary/',
+          href: 'https://devtionary.app/',
           target: '_self',
         },
         items: [
