@@ -6,15 +6,18 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #7A016E;
-  --ifm-color-primary-dark: #35012C;
+  --ifm-color-primary: #7a016e;
+  --ifm-color-primary-dark: #35012c;
   --ifm-color-primary-darker: #290025;
-  --ifm-color-primary-darkest: #11001C;
-  --ifm-color-primary-light: #A20292;
-  --ifm-color-primary-lighter: #CA02B6;
-  --ifm-color-primary-lightest: #F202DA;
-  --ifm-link-color: #CA02B6;
+  --ifm-color-primary-darkest: #11001c;
+  --ifm-color-primary-light: #a20292;
+  --ifm-color-primary-lighter: #ca02b6;
+  --ifm-color-primary-lightest: #f202da;
+  --ifm-link-color: #ca02b6;
   --ifm-code-font-size: 95%;
+  --ifm-heading-font-family: 'Sora', sans-serif;
+  --ifm-heading-font-weight: 900;
+  --ifm-heading-line-height: 1;
 }
 
 .docusaurus-highlight-code-line {
@@ -29,11 +32,15 @@
 }
 
 /* Change Infima theme colors in dark mode */
-html[data-theme='dark'] {
-  --ifm-color-primary: #CA02B6;
-  --ifm-link-color: #CA02B6;
-}
-
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Sora font */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700;800&display=swap');
+
+/* Front page custom background */
+.hero .container {
+  position: relative;
+  z-index: 2;
 }
