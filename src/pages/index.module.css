@@ -24,6 +24,10 @@
     height: unset;
     padding: 2rem;
   }
+
+  .heroBackground {
+    display: none;
+  }
 }
 
 .buttons {

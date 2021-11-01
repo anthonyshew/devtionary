@@ -32,6 +32,22 @@
   transform: translateY(-50%);
 }
 
+@media screen and (max-width: 966px) {
+  .homepageSearch {
+    margin: 2rem auto;
+    font-size: 1rem;
+  }
+
+  .homepageSearch input {
+    padding: 0.5em 1em;
+    padding-left: 2.25em;
+  }
+
+  .homepageSearchIcon {
+    left: 0.75em;
+  }
+}
+
 html[data-theme='dark'] .homepageSearch input {
   background: #0004;
 }

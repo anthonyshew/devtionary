@@ -44,3 +44,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   position: relative;
   z-index: 2;
 }
+
+@media screen and (max-width: 966px) {
+  .hero__title {
+    font-size: 1.6rem;
+    line-height: 1.2;
+  }
+}
