@@ -45,15 +45,18 @@ const config = {
       navbar: {
         title: "Devtionary",
         logo: {
-          alt: "Devtionary Logo",
-          src: "img/logo.svg",
+          alt: 'Devtionary',
+          src: 'img/logo.svg',
+          srcDark: 'img/logo_dark_mode.svg',
+          href: 'https://anthonyshew.github.io/devtionary/',
+          target: '_self',
         },
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "what-is-devtionary",
             position: "left",
-            label: "Tutorial",
+            label: "What is Devtionary?",
           },
           {
             type: "dropdown",
