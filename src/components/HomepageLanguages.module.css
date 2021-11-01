@@ -1,0 +1,48 @@
+.homepageLanguages {
+  display: block;
+}
+
+.homepageLanguageLink a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.languageItem {
+  display: flex;
+  box-shadow: 0.5rem 0.5rem 1rem #0004;
+  margin: 1rem 0;
+}
+
+.languageImage {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.languageImage img {
+  height: 4rem;
+}
+
+.languageInfo {
+  padding: 1rem;
+  background: #0002;
+  color: #000;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.languageInfo h3 {
+  margin: 0;
+}
+
+.languageInfo p {
+  margin: 0;
+}
+
+.languageInfo a {
+  color: inherit;
+  text-decoration: underline;
+}
