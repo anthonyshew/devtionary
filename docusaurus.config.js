@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Devtionary",
   tagline: "A dictionary for the modern developer",
-  url: "https://anthonyshew.github.io",
-  baseUrl: "/devtionary/",
+  url: "https://devtionary.app",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -48,7 +48,7 @@ const config = {
           alt: 'Devtionary',
           src: 'img/logo.svg',
           srcDark: 'img/logo_dark_mode.svg',
-          href: 'https://anthonyshew.github.io/devtionary/',
+          href: 'https://devtionary.app/',
           target: '_self',
         },
         items: [
