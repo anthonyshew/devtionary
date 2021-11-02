@@ -19,18 +19,18 @@ const HomePage = () => {
         <HomepageSearch />
         <HomepageLanguages />
       </div>
-      <HeroHandsSvg className={styles.heroBackground} />
     </header>
   );
-}
+};
 
 export default () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}!`} description={siteConfig.tagline}>
-      <main>
+    <Layout className="homePage" title={`Hello from ${siteConfig.title}!`} description={siteConfig.tagline}>
+      <main className={styles.main}>
+        <HeroHandsSvg className={styles.heroBackground} />
         <HomePage />
       </main>
     </Layout>
   );
-}
+};
