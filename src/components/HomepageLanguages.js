@@ -47,7 +47,7 @@ export default () => {
           Programming Languages
         </h2>
         <div className={clsx(styles.flexRight, styles.homepageLanguageLink)}>
-          <Link to='docs/intro'>See All &raquo;</Link>
+          <Link to='docs/what-is-devtionary'>See All &raquo;</Link>
         </div>
       </div>
       <div className='row'>{LanguageList.map(Language)}</div>
