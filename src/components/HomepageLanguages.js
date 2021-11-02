@@ -25,7 +25,7 @@ const Language = (lang) => {
     <div className={clsx('col col--3')} key={lang.path}>
       <div className={styles.languageItem} style={{ backgroundColor: lang.color }}>
         <div className={styles.languageImage}>
-          <img src={`../../static/img/languages/${lang.icon}`} />
+          <img src={require(`../../assets/languages/${lang.icon}`).default} />
         </div>
         <div className={styles.languageInfo}>
           <div className='meta'>

@@ -15,7 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "anthonyshew",
   projectName: "devtionary",
-  trailingSlash: true,
+  trailingSlash: false,
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -23,14 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl: "https://github.com/anthonyshew/devtionary",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/main/website/blog/",
+            "https://github.com/anthonyshew/devtionary",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
