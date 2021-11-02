@@ -1,39 +1,35 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import HomepageSearch from '../components/HomepageSearch';
+import HomepageLanguages from '../components/HomepageLanguages';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+const HeroHandsSvg = require('../../static/img/hero_hands.svg').default;
+
+const HomePage = () => {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+    <header className={clsx('hero', styles.heroBanner)}>
+      <div className='container'>
+        <h1 className='hero__title'>
+          <span className={styles.titlePart}>A dictionary for the </span>
+          <span className={styles.titlePart}>modern developer.</span>
+        </h1>
+        <HomepageSearch />
+        <HomepageLanguages />
       </div>
+      <HeroHandsSvg className={styles.heroBackground} />
     </header>
   );
 }
 
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+export default () => {
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+    <Layout title={`Hello from ${siteConfig.title}!`} description={siteConfig.tagline}>
       <main>
-        <HomepageFeatures />
+        <HomePage />
       </main>
     </Layout>
   );

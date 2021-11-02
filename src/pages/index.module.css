@@ -4,15 +4,44 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 8rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
+.heroBackground {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  z-index: 0;
+  opacity: 0.1;
+}
+
+.titlePart {
+  display: block;
+  font-size: 3rem;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    height: 92vh;
+    padding: 4rem 1rem;
+  }
+
+  .heroBackground {
+    top: 50%;
+    left: 50%;
+    width: unset;
+    height: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .titlePart {
+    font-size: 2.2rem;
+    display: inline;
   }
 }
 
