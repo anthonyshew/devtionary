@@ -6,11 +6,13 @@ import styles from './HomepageLanguages.module.css';
 const LanguageList = require('../_languages_.json');
 
 const Language = (lang) => {
+  const imgPath = require(`../../static/img/languages/${lang.path}.png`).default;
+
   return (
     <div className={clsx('col col--3')} key={lang.path}>
       <div className={styles.languageItem} style={{ backgroundColor: lang.color }}>
         <div className={styles.languageImage}>
-          <img src={`../../static/img/languages/${lang.path}.png`} />
+          <img src={imgPath} />
         </div>
         <div className={styles.languageInfo}>
           <div className='meta'>
