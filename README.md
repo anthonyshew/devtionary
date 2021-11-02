@@ -1,7 +1,7 @@
 # Welcome!
 ## Welcome to the developer's dictionary that you have always needed!
 
-https://anthonyshew.github.io/devtionary/
+https://devtionary.app/
 
 We strive to create a book of programming words that you may not quite know - or just need a refresher on.
 The Devtionary is meant to be accessible and useful for any level of developer - from absolute beginner to 30 year veteran.
