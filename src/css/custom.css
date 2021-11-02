@@ -37,3 +37,11 @@ html[data-theme='dark'] {
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+
+@media (max-width: 996px) {
+  .navbar__toggle {
+    order: 10;
+    margin-left: auto;
+  }
+}
