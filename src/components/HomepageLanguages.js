@@ -42,11 +42,11 @@ function Language(lang) {
 export default function HomepageLanguages() {
   return (
     <div className={clsx(styles.homepageLanguages, 'text--left')}>
-      <div className='row'>
-        <div className='col'>
-          <h2>Programming Languages</h2>
-        </div>
-        <div className={clsx('col text--right', styles.homepageLanguageLink)}>
+      <div className={styles.flex}>
+        <h2 className={styles.flexLeft}>
+          Programming Languages
+        </h2>
+        <div className={clsx(styles.flexRight, styles.homepageLanguageLink)}>
           <Link to='docs/intro'>See All &raquo;</Link>
         </div>
       </div>

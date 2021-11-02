@@ -14,9 +14,8 @@ function HomepageHeader() {
     <header className={clsx('hero', styles.heroBanner)}>
       <div className='container'>
         <h1 className='hero__title'>
-          A dictionary for the
-          <br />
-          modern developer.
+          <span className={styles.titlePart}>A dictionary for the </span>
+          <span className={styles.titlePart}>modern developer.</span>
         </h1>
         <HomepageSearch />
         <HomepageLanguages />
