@@ -53,10 +53,19 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "what-is-devtionary",
+            to: "/docs/what-is-devtionary",
             position: "left",
             label: "What is Devtionary?",
+          },
+          {
+            to: "/docs/request-a-new-word/",
+            position: "left",
+            label: "Request a New Word",
+          },
+          {
+            to: "/docs/how-to-contribute/",
+            position: "left",
+            label: "How to Contribute",
           },
           {
             type: "dropdown",
