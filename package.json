@@ -5,8 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "get-languages": "node ./tasks/get-languages.js",
-    "prestart": "npm run get-languages",
-    "prebuild": "npm run get-languages",
+    "prestart": "yarn run get-languages",
+    "prebuild": "yarn run get-languages",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
