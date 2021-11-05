@@ -36,7 +36,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-
 @media (max-width: 996px) {
   .navbar__toggle {
     order: 10;
@@ -60,4 +59,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     font-size: 1.6rem;
     line-height: 1.2;
   }
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
 }

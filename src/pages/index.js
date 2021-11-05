@@ -6,11 +6,9 @@ import styles from './index.module.css';
 import HomepageSearch from '../components/HomepageSearch';
 import HomepageLanguages from '../components/HomepageLanguages';
 
-const HeroHandsSvg = require('../../static/img/hero_hands.svg').default;
-
 const HomePage = () => {
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
+    <div className={clsx('hero', styles.heroBanner)}>
       <div className='container'>
         <h1 className='hero__title'>
           <span className={styles.titlePart}>A dictionary for the </span>
@@ -19,18 +17,18 @@ const HomePage = () => {
         <HomepageSearch />
         <HomepageLanguages />
       </div>
-      <HeroHandsSvg className={styles.heroBackground} />
-    </header>
+    </div>
   );
-}
+};
 
 export default () => {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}!`} description={siteConfig.tagline}>
-      <main>
+    <Layout className="homePage" title={`Hello from ${siteConfig.title}!`} description={siteConfig.tagline}>
+      <main className={styles.main}>
+        <div className={styles.backgroundDimmer} />
         <HomePage />
       </main>
     </Layout>
   );
-}
+};
