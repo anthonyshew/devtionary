@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Devtionary",
-  tagline: "A dictionary for the modern developer",
+  tagline: "A dictionary for today's developer.",
   url: "https://devtionary.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -36,10 +36,10 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: '/assets/meta-image.png',
       navbar: {
         title: "Devtionary",
         logo: {
