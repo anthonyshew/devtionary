@@ -50,7 +50,7 @@ function makeLanguage(languagePath) {
 
   // find language info
   const infoPath = path.join(languagePath, categoryFileName);
-  const rawPath = languagePath.split(/\\/).slice(-1)[0];
+  const rawPath = languagePath.split(/[\/|\\]/g).slice(-1)[0];
 
   /** @type {{label: string}} */
   const { label } = JSON.parse(fs.readFileSync(infoPath));
