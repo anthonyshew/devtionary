@@ -6,7 +6,7 @@ import styles from './HomepageLanguages.module.css';
 const LanguageList = require('../_languages_.json');
 
 const Language = (lang) => {
-  const imgPath = require(`../../static/img/languages/${lang.path}.png`).default;
+  const imgPath = require(`../../assets/languages/${lang.path}.png`).default;
 
   return (
     <div className={clsx('col col--3')} key={lang.path}>
