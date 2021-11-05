@@ -41,6 +41,8 @@ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+*Please note that the number of definitions shown in the local environment will not change until you run `npm run start` again. If you add another definition to a language, the home page won't reflect that new number until you restart.*
+
 ## Build
 
 ```

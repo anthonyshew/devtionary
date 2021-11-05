@@ -3,29 +3,16 @@ import React from 'react';
 import Link from '@docusaurus/Link';
 import styles from './HomepageLanguages.module.css';
 
-const LanguageList = [
-  {
-    label: 'JavaScript',
-    path: 'javascript',
-    icon: 'javascript.png',
-    defs: 4,
-    color: '#FFF3A7',
-  },
-  {
-    label: 'Clojure',
-    path: 'clojure',
-    icon: 'clojure.png',
-    defs: 3,
-    color: '#A6E16E',
-  },
-];
+const LanguageList = require('../_languages_.json');
 
 const Language = (lang) => {
+  const imgPath = require(`../../static/img/languages/${lang.path}.png`).default;
+
   return (
     <div className={clsx('col col--3')} key={lang.path}>
       <div className={styles.languageItem} style={{ backgroundColor: lang.color }}>
         <div className={styles.languageImage}>
-          <img src={require(`../../assets/languages/${lang.icon}`).default} />
+          <img src={imgPath} />
         </div>
         <div className={styles.languageInfo}>
           <div className='meta'>
@@ -37,7 +24,7 @@ const Language = (lang) => {
       </div>
     </div>
   );
-}
+};
 
 export default () => {
   return (
@@ -50,7 +37,11 @@ export default () => {
           <Link to='docs/what-is-devtionary'>See All &raquo;</Link>
         </div>
       </div>
-      <div className='row'>{LanguageList.map(Language)}</div>
+      <div className='row'>{
+        LanguageList
+          .sort((a, b) => b.defs - a.defs)
+          .map(Language)
+      }</div>
     </div>
   );
-}
+};

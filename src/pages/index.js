@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className={clsx('hero', styles.heroBanner)}>
       <div className='container'>
         <h1 className='hero__title'>
-          <span className={styles.titlePart}>A dictionary for the </span>
+          <span className={styles.titlePart}>A dictionary for the</span>
           <span className={styles.titlePart}>modern developer.</span>
         </h1>
         <HomepageSearch />
