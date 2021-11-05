@@ -26,6 +26,7 @@
   background-image: url("../../static/img/hero_hands.svg");
   background-size: cover;
   background-position: center;
+  flex: 1 0 auto;
 }
 
 .backgroundDimmer {
