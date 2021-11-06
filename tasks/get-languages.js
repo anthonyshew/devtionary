@@ -36,6 +36,8 @@ function readLanguages(currentPath) {
     }
   });
 
+  // sort languages by number of definitions
+  results.sort((langA, langB) => langB.defs - langA.defs);
   return results;
 }
 

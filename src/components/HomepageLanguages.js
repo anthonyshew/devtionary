@@ -37,11 +37,9 @@ export default () => {
           <Link to='docs/what-is-devtionary'>See All &raquo;</Link>
         </div>
       </div>
-      <div className='row'>{
-        LanguageList
-          .sort((a, b) => b.defs - a.defs)
-          .map(Language)
-      }</div>
+      <div className='row'>
+        {LanguageList.map(Language)}
+      </div>
     </div>
   );
 };
