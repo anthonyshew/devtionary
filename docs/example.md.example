@@ -2,14 +2,18 @@
 sidebar_position: 1
 ---
 
+# The New Word Goes Here
+---
+
 :::note This is a template file.
 
 The items in this template file are meant for laying out a proper format.
 
 In order for your new word to make it into the dictionary, you must follow the template.
-:::
 
-# The New Word Goes Here
+Please remove all of these adminitions once you are ready to submit the new word.
+
+:::
 
 ## Beginner
 
@@ -74,5 +78,5 @@ Here, we want to describe this term in non-programming. Use a metaphor or a real
 ## Resources for More Info
 
 :::caution Recommended
-Here, we want to describe this term in non-programming. Use a metaphor or a real-world example to explain a little bit better.
+Here, we want to describe this term in non-programming language. Use a metaphor or a real-world example to explain a little bit better.
 :::

@@ -3,10 +3,10 @@ sidebar_position: 1
 ---
 
 # String
-
+---
 ## Beginner
 
-A sequence of characters, like "Devtionary". Strings are written with quotes.
+A sequence of characters, like "Devtionary." Strings are written with quotes.
 
 ## Intermediate
 
