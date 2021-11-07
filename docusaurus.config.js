@@ -39,7 +39,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/img/meta-image.png',
+      image: 'img/meta-image.png',
       navbar: {
         title: "Devtionary",
         logo: {
