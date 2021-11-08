@@ -43,7 +43,7 @@ const string = 'this is a string';
 ### Video Explainer
 
 <a class="youtube-link" href="https://www.youtube.com/watch?v=09BwruU4kiY" target="_blank" title="Watch on YouTube">
-  <img alt="JavaScript Strings - Programming with Mosh" src="http://i3.ytimg.com/vi/09BwruU4kiY/maxresdefault.jpg"/>
+  <img alt="JavaScript Strings - Programming with Mosh" src="https://i3.ytimg.com/vi/09BwruU4kiY/maxresdefault.jpg"/>
 </a>
 
 ### Links
