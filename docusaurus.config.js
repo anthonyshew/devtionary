@@ -111,16 +111,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "No Stack Overflow",
-                href: "#",
-              },
-              {
                 label: "Discord",
                 href: "https://discord.gg/H3Wg32fxdV",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/DevtionaryApp",
               },
             ],
           },
@@ -134,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
