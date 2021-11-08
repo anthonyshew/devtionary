@@ -94,8 +94,16 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "What is Devtionary?",
                 to: "/docs/what-is-devtionary",
+              },
+              {
+                label: "Request a new Word",
+                to: "/docs/request-a-new-word",
+              },
+              {
+                label: "How to Contribute",
+                to: "/docs/how-to-contribute",
               },
             ],
           },
@@ -103,12 +111,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "No Stack Overflow",
+                href: "#",
               },
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/H3Wg32fxdV",
               },
               {
                 label: "Twitter",
@@ -120,12 +128,8 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/anthonyshew/devtionary",
               },
             ],
           },
