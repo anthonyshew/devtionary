@@ -18,7 +18,7 @@ Block scope in JavaScript is established using the **let** and **const** keyword
 
 ### In Code
 
-```javascript
+```js
 if (true) {
   var a = 'Hello from A'; // this variable will get hoisted
   let b = 'Hello from B'; // this is block scoped

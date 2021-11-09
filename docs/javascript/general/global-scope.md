@@ -1,4 +1,5 @@
 # Global Scope
+
 ---
 
 ## Beginner
@@ -33,13 +34,13 @@ The global object can become useful as a place to use values in the program that
 
 ### In Code
 
-```
-const string = "this is a string" // This variable is global!
+```js
+const string = 'this is a string'; // This variable is global!
 
 const example = () => {
-  const anotherString = "yet another string!" // Not global!
-  return anotherString
-}
+  const anotherString = 'yet another string!'; // Not global!
+  return anotherString;
+};
 
 // In this example, string and example are both global.
 // anotherString is not!
