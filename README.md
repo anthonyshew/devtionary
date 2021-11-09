@@ -1,5 +1,4 @@
-# Welcome!
-## Welcome to the developer's dictionary that you have always needed!
+# Welcome to the developer's dictionary that you have always needed!
 
 https://devtionary.app
 
@@ -10,7 +9,7 @@ The Devtionary is meant to be accessible and useful for any level of developer -
 
 ### Are we missing a new word?
 
-To request a word, use the Github issue template LINK.
+To request a word, use the Github issue template [use the Github issue template](https://github.com/anthonyshew/devtionary/issues/new?assignees=&labels=Good+First+Issue%2C+New+Word&template=new-word-request-template.md&title=New+Word).
 
 ## Want to contribute a new word or other pull request?
 
@@ -29,14 +28,12 @@ To run Devtionary locally on your machine:
 ```
 yarn install
 yarn start
-
 ```
 
 Or:
 
 ```
 yarn start
-
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
