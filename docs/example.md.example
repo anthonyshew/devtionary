@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # The New Word Goes Here
 ---
 
@@ -64,7 +60,7 @@ let s = "A string could even contain other non-alphebetics characters like numbe
 ### In Conversation
 
 :::caution Recommended
-Here, we want to describe this term in non-programming. Use a metaphor or a real-world example to explain a little bit better.
+Here, we want to describe this term in non-programming language. Use a metaphor or a real-world example to explain a little bit better.
 :::
 
 :::tip Please use a blockquote.
