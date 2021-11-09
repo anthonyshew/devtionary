@@ -1,7 +1,7 @@
 ---
 name: New Word Request Template
 about: Want to see a new word get added to Devtionary? Request it using this template.
-title: New Word
+title: 'New Word: [NEW WORD HERE]'
 labels: Good First Issue, New Word
 assignees: ''
 
