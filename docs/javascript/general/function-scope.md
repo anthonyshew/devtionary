@@ -5,13 +5,8 @@
 ## Beginner
 
 Function scope refers to the context that exists within a function.<br/>
-Any variables declared inside a function are only accessible therein.
 
----
-
-## Intermediate
-
-The **var** keyword defines variables for function scope availability. Variables declared using this keyword get _hoisted_ to the top of the function scope, as opposed to those defined using **let** and **const**
+Any variables declared inside a function are only accessible within that function.
 
 ---
 
@@ -21,7 +16,7 @@ The **var** keyword defines variables for function scope availability. Variables
 
 ```js
 function printExample() {
-  var example = 'Inside the function';
+  const example = 'Inside the function';
   console.log(example);
 }
 
@@ -29,6 +24,7 @@ printExample(); // outputs "Inside the function";
 console.log(example); // ReferenceError
 ```
 
+---
 ## Resources for More Info
 
 ### Links

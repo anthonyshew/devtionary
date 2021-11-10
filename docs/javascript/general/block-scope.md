@@ -4,13 +4,13 @@
 
 ## Beginner
 
-A block scope is the area within **if**, **switch** conditions or **for** and **while** loops. Generally speaking, whenever you see **{curly brackets}**, it is a block.
+A block scope is the area within `if`, `switch` conditions or `for` and `while` loops. Generally speaking, whenever you see curly brackets `{}`, it is a block of code with "block scope."
 
 ---
 
 ## Intermediate
 
-Block scope in JavaScript is established using the **let** and **const** keywords that were introduced in ES6. Any variables declared using these keywords in a block are not accessible outside the block.
+Block scope in JavaScript is established using the `let` and `const` keywords that were introduced in ES6. Any variables declared using these keywords in a block are not accessible outside the block.
 
 ---
 
@@ -20,12 +20,12 @@ Block scope in JavaScript is established using the **let** and **const** keyword
 
 ```js
 if (true) {
-  var a = 'Hello from A'; // this variable will get hoisted
-  let b = 'Hello from B'; // this is block scoped
-  const c = 'Hello from C'; // this is also block scoped
+  var a = 'Hello from A'; // This variable will get hoisted
+  let b = 'Hello from B'; // This is block scoped
+  const c = 'Hello from C'; // This is also block scoped
 }
 
-console.log(a); // prints "Hello"
+console.log(a); // Prints "Hello"
 console.log(b); // ReferenceError
 console.log(c); // ReferenceError
 ```
