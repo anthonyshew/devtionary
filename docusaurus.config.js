@@ -78,6 +78,10 @@ const config = {
                 label: "Clojure",
                 to: "/docs/clojure/intro",
               },
+              {
+                label: "C#",
+                to: "/docs/csharp/intro",
+              },
             ],
           },
           {
