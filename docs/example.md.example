@@ -81,14 +81,21 @@ Information here is not required - but is recommended.
 
 ### Video Explainer
 
+// Imports are not allowed at the top of the file.
+// We will do them right above where we use them instead.
 import YoutubeEmbed from './_youtube-embed.mdx';
 
 <YoutubeEmbed
-  href='https://www.youtube.com/watch?v=09BwruU4kiY'
-  alt='JavaScript Strings - Programming with Mosh'
-  src='https://i3.ytimg.com/vi/09BwruU4kiY/maxresdefault.jpg'
+  src='https://www.youtube.com/embed/youtubeIdHere'
 />
 
 ### Links
 
-<div><a href="" target="_blank" rel="noopener noreferrer">This is an example link.</a></div>
+// Imports are not allowed at the top of the file.
+// We will do them right above where we use them instead.
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean"
+  label="MDN - Boolean primitive"
+/>
