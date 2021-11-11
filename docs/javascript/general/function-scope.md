@@ -23,10 +23,3 @@ function printExample() {
 printExample(); // outputs "Inside the function";
 console.log(example); // ReferenceError
 ```
-
----
-## Resources for More Info
-
-### Links
-
-<div><a href="https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript" target="_blank" rel="noopener noreferrer">Understanding Variables, Scopes and Hoisting in JavaScript</a></div>

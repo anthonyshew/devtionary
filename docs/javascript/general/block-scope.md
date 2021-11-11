@@ -34,4 +34,9 @@ console.log(c); // ReferenceError
 
 ### Links
 
-<div><a href="https://medium.com/@allansendagi/block-scope-in-javascript-8fd2f909e848" target="_blank" rel="noopener noreferrer">Block Scope in JavaScript</a> by Allan Sendagi</div>
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://medium.com/@allansendagi/block-scope-in-javascript-8fd2f909e848"
+  label="Block Scope in JavaScript by Allan Sendagi"
+/>

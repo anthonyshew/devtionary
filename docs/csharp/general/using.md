@@ -174,4 +174,9 @@ public class MyClass {
 
 ### Links
 
-<div><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using" target="_blank" rel="noopener noreferrer">C# Documentation - using</a></div>
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using"
+  label="C# Documentation - using"
+/>

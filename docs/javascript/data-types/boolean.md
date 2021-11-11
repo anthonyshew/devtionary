@@ -52,6 +52,14 @@ let baz = NaN // false
 
 ### Links
 
-<div><a href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean" target="_blank" rel="noopener noreferrer">MDN - Boolean primitive</a></div>
+import ExternalLink from '../../_external-link.mdx'
 
-<div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean" target="_blank" rel="noopener noreferrer">MDN - Boolean Object</a></div>
+<ExternalLink
+  href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean"
+  label="MDN - Boolean primitive"
+/>
+
+<ExternalLink
+  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"
+  label="MDN - Boolean Object"
+/>

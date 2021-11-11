@@ -119,4 +119,9 @@ Console.WriteLine("Hello World!");
 
 ### Links
 
-<div><a href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/namespaces" target="_blank" rel="noopener noreferrer">Namespaces</a></div>
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/namespaces"
+  label="C# Documentation - Namespaces"
+/>
