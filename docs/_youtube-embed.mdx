@@ -1,3 +1,22 @@
-<a class='youtube-link' href={props.href} target='_blank' title='Watch on YouTube'>
-  <img alt={props.alt} src={props.src} />
-</a>
+<div
+  style={{
+      position: "relative",
+      width: "100%",
+      height: 0,
+      paddingBottom: "56.25%"
+      }}
+>
+  <iframe
+    className="youtube-embed"
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+    }}
+    type="text/html"
+    src={props.src}
+    frameBorder="0"
+  />
+</div>

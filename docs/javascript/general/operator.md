@@ -32,4 +32,9 @@ const boolean = !!str; // true
 
 ### Links
 
-<div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators" target="_blank" rel="noopener noreferrer">MDN - Expressions and Operators</a></div>
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators"
+  label="MDN - Expressions and Operators"
+/>

@@ -56,5 +56,14 @@ const example = () => {
 
 ### Links
 
-<div><a href="https://developer.mozilla.org/en-US/docs/Glossary/Global_object" target="_blank" rel="noopener noreferrer">MDN - Glogal Object</a></div>
-<div><a href="https://www.freecodecamp.org/news/an-introduction-to-scope-in-javascript-cbd957022652/" target="_blank" rel="noopener noreferrer">Cristian Salcescu - An Introduction to Scope in Javascript</a></div>
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://developer.mozilla.org/en-US/docs/Glossary/Global_object"
+  label="MDN - Global Object"
+/>
+
+<ExternalLink
+  href="https://www.freecodecamp.org/news/an-introduction-to-scope-in-javascript-cbd957022652/"
+  label="Cristian Salcescu - An Introduction to Scope in Javascript"
+/>

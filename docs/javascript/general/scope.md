@@ -62,6 +62,19 @@ console.log (foo) // Throws an error
 
 ### Links
 
-<div><a href="https://www.w3schools.com/js/js_scope.asp" target="_blank" rel="noopener noreferrer">W3 Schools - Scope</a></div>
-<div><a href="https://developer.mozilla.org/en-US/docs/Glossary/Scope" target="_blank" rel="noopener noreferrer">MDN - Scope</a></div>
-<div><a href="https://dmitripavlutin.com/javascript-scope/" target="_blank" rel="noopener noreferrer">Blog Post - Dmitri Pavlutin</a></div>
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://www.w3schools.com/js/js_scope.asp"
+  label="W3 Schools - Scope"
+/>
+
+<ExternalLink
+  href="https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+  label="MDN - Scope"
+/>
+
+<ExternalLink
+  href="https://dmitripavlutin.com/javascript-scope/"
+  label="Blog Post - Dmitri Pavlutin"
+/>

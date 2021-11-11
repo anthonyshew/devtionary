@@ -73,6 +73,15 @@ const value = true - false // 1
 ## Resources for More Info
 
 ### Links
-<div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number" target="_blank" rel="noopener noreferrer">MDN - Number Object</a></div>
 
-<div><a target="_blank" rel="noopener noreferrer" href="https://blog.soulserv.net/javascript-nan-demystified/">NaN Demystified</a></div>
+import ExternalLink from '../../_external-link.mdx'
+
+<ExternalLink
+  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"
+  label="MDN - Number Object"
+/>
+
+<ExternalLink
+  href="https://blog.soulserv.net/javascript-nan-demystified/"
+  label="NaN Demystified"
+/>
