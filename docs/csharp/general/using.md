@@ -1,4 +1,4 @@
-# using 
+# using
 
 ---
 
@@ -34,7 +34,7 @@ The `using` directive has two modifiers.
 
 Recently (introduced in C# 10), you can apply the `global` modifier to a `using` directive, which instructs the compiler to inject the modified `using` directive at the beginning of every source file.
 
-The `static` modifier applied to a `using` directive imports a static types members and nested types. 
+The `static` modifier applied to a `using` directive imports a static types members and nested types.
 
 The `static` and `global` modifiers can be used together.
 
@@ -66,7 +66,7 @@ namespace {
     public MyClass {
         public void MyMethod() {
             using var stringReader = new StringReader("some text"));
-            // the compiler will determine the correct scope without curly braces 
+            // the compiler will determine the correct scope without curly braces
         }
     }
 }
@@ -79,21 +79,21 @@ namespace {
 
 ```
 
-// Without a using directive 
+// Without a using directive
 class Program {
     static void Main()
     {
-       var stringReader = new System.IO.StringReader(); 
+       var stringReader = new System.IO.StringReader();
     }
 }
 
-// With a using directive 
+// With a using directive
 using System.IO;
 
 class Program {
     static void Main()
     {
-       var stringReader = new System.IO.StringReader(); 
+       var stringReader = new System.IO.StringReader();
     }
 }
 ```
@@ -109,7 +109,7 @@ using MyCustomReaders = Company.CustomReaders.IO;
 class Program {
     static void Main() {
         // StringReader exists in both System.IO and Company.CustomReaders.IO
-        var reader = new StringReader("some text"); 
+        var reader = new StringReader("some text");
         var customReader = new MyCustomReaders.StringReader("some more text"); // using the namespace alias for our custom reader
     }
 }
@@ -151,22 +151,22 @@ class Program {
 
 public class MyClass {
     public void TestMethod() {
-        WriteLine("Hello Test Method!"); // The static type System.Console was included automatically because of the global using statement 
+        WriteLine("Hello Test Method!"); // The static type System.Console was included automatically because of the global using statement
     }
 }
 ```
 
---- 
+---
 
 ### In Conversation
 
 > You might imagine the `using` statement as a note written to a friend that you will return something you borrowed, after a week.
 
-> The week is your scope, the borrowed item is your variable, and the note is the using statement telling the compiler (your friend) you will be return the item. 
+> The week is your scope, the borrowed item is your variable, and the note is the using statement telling the compiler (your friend) you will be return the item.
 
-> The `using` statement as a directive goes along with our [namespace](/docs/csharp/general/namespaces) example using toolboxes. 
+> The `using` statement as a directive goes along with our [namespace](/docs/csharp/general/namespaces) example using toolboxes.
 
-> In this scenario, the `using` statement references the label on the toolbox. 
+> In this scenario, the `using` statement references the label on the toolbox.
 
 ---
 
@@ -174,4 +174,4 @@ public class MyClass {
 
 ### Links
 
-<div><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using" target="_blank" rel="noopener noreferrer">using</a></div>
+<div><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using" target="_blank" rel="noopener noreferrer">C# Documentation - using</a></div>
