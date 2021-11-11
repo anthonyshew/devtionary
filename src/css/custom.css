@@ -32,6 +32,15 @@
 }
 
 /* Change Infima theme colors in dark mode */
+html[data-theme='dark'] {
+  --ifm-menu-color-active: var(--ifm-color-primary-lightest);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary-lightest);
+}
+
+html[data-theme='dark'] .table-of-contents__link--active {
+  color: var(--ifm-color-primary-lightest);
+}
+
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
