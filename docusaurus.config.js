@@ -56,7 +56,7 @@ const config = {
             label: "What is Devtionary?",
           },
           {
-            to: "/docs/request-a-new-word/",
+            to: "https://github.com/anthonyshew/devtionary/issues/new?assignees=&labels=Good+First+Issue%2C+New+Word&template=new-word-request-template.md&title=New+Word%3A+%5BNEW+WORD+HERE%5D",
             position: "left",
             label: "Request a New Word",
           },
