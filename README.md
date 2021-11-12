@@ -1,5 +1,4 @@
-# Welcome!
-## Welcome to the developer's dictionary that you have always needed!
+# Welcome to the developer's dictionary that you have always needed!
 
 https://devtionary.app
 
@@ -29,14 +28,12 @@ To run Devtionary locally on your machine:
 ```
 yarn install
 yarn start
-
 ```
 
 Or:
 
 ```
 yarn start
-
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
