@@ -7,7 +7,7 @@ Using imports, you can bring code from a different file to use in the file where
 
 This is useful for making your files easier to use since you can break up your logic into separate places instead of having one giant file.
 
-For examples of how to correctly import write an import, see the **Examples** section.
+For examples of how to correctly write an import, see the **Examples** section.
 
 ---
 
