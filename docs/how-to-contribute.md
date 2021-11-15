@@ -8,7 +8,11 @@ Want to help make Devtionary great? Thank you!
 
 Here's how you can do so today.
 
-[How to Contribute to Your First Open Source Using Git and Github](https://www.youtube.com/watch?v=T9VylI5C0G8&t)
+import YoutubeEmbed from './_youtube-embed.mdx';
+
+<YoutubeEmbed
+  src='https://www.youtube.com/embed/T9VylI5C0G8'
+/>
 
 ## Contributors
 
