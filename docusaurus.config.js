@@ -102,8 +102,8 @@ const config = {
                 to: "/docs/what-is-devtionary",
               },
               {
-                label: "Request a new Word",
-                to: "/docs/request-a-new-word",
+                label: "Request a New Word",
+                to: "https://github.com/anthonyshew/devtionary/issues/new?assignees=&labels=Good+First+Issue%2C+New+Word&template=new-word-request-template.md&title=New+Word%3A+%5BNEW+WORD+HERE%5D",
               },
               {
                 label: "How to Contribute",

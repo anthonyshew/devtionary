@@ -8,10 +8,14 @@ Want to help make Devtionary great? Thank you!
 
 Here's how you can do so today.
 
-*Instructional Video Coming Soon*
+import YoutubeEmbed from './_youtube-embed.mdx';
+
+<YoutubeEmbed
+  src='https://www.youtube.com/embed/T9VylI5C0G8'
+/>
 
 ## Contributors
 
 Devtionary wants to thank all of its contributors for stepping up and helping others on their development journeys!
 
-*Contributors Listing Coming Soon*
+_Contributors Listing Coming Soon_
