@@ -40,10 +40,10 @@ toUpperCase("Winston Churchill") // Returns WINSTON CHURCHILL
 
 ### In Conversation
 
-> To compare parameters to real life, think of raw materials for a machine.
+> To compare parameters to real life, think of a machine that converts raw materials into finished goods.
 > To make the machine work correctly, you must put raw wood into it's basket so that it can process the wood. The machine executes a process and gives you back milled wood.
-> However, this machine is special. If you put in raw metal or raw fiber, the machine can still output you finished materials - in this case, finished metal and finished linens.
-> In this example, the machine is a JavaScript function while the basket in which you put raw materials is the parameter to the function. (The raw materials would be like arguments). As long as you put valid raw materials (arguments) into the basket (parameter), the machine will do its work for you!
+> However, this machine is special. If you put in raw metal or raw fiber, the machine can still output finished materials - in this case, finished metal and finished linens.
+> In this example, the machine is a JavaScript function. The basket in which you put raw materials is the parameter to the function. Last, the raw materials would be like arguments. As long as you put valid raw materials (arguments) into the basket (parameter), the machine will do its work for you!
 
 ---
 
