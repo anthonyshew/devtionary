@@ -103,7 +103,7 @@ const config = {
               },
               {
                 label: "Request a new Word",
-                to: "/docs/request-a-new-word",
+                to: "https://github.com/anthonyshew/devtionary/issues/new?assignees=&labels=Good+First+Issue%2C+New+Word&template=new-word-request-template.md&title=New+Word%3A+%5BNEW+WORD+HERE%5D",
               },
               {
                 label: "How to Contribute",
