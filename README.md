@@ -15,7 +15,7 @@ The Devtionary is meant to be accessible and useful for any level of developer -
 
 ### Are we missing a new word?
 
-To request a word, use the [Github issue template](/.github/ISSUE_TEMPLATE/new-word-request-template.md).
+To request a word, use the [Github issue template](https://github.com/anthonyshew/devtionary/issues/new?assignees=&labels=Good+First+Issue%2C+New+Word&template=new-word-request-template.md&title=New+Word%3A+%5BNEW+WORD+HERE%5D).
 
 ## Want to contribute a new word or other pull request?
 
@@ -44,7 +44,7 @@ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-*Please note that the number of definitions shown in the local environment will not change until you run `npm run start` again. If you add another definition to a language, the home page won't reflect that new number until you restart.*
+_Please note that the number of definitions shown in the local environment will not change until you run `npm run start` again. If you add another definition to a language, the home page won't reflect that new number until you restart._
 
 ## Build
 
