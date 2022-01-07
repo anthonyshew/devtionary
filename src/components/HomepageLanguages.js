@@ -16,9 +16,6 @@ const Language = (lang) => {
         <div className={styles.languageInfo}>
           <div className='meta'>
             <h3>{lang.label}
-              <Link
-                to={`/docs/${lang.path}/intro`}
-              />
             </h3>
             <p>{lang.defs}+ definitions</p>
           </div>
