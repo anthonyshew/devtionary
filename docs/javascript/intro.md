@@ -17,3 +17,4 @@ Javascript is used to create dynamic web pages and implement complex features on
 _Data Types_
 
 [String](/docs/javascript/data-types/string)
+[Integers](/docs/javascript/data-types/integer)
