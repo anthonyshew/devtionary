@@ -17,4 +17,3 @@ Python can be used for Console Applications, Web Applications, AI and machine le
 _Data Types_
 
 [String](/docs/python/data-types/string)
-[Integers](/docs/python/data-types/integer)
