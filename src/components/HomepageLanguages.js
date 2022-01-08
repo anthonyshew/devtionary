@@ -4,6 +4,9 @@ import Link from '@docusaurus/Link';
 import styles from './HomepageLanguages.module.css';
 
 const LanguageList = require('../_languages_.json');
+const style = {
+  textDecoration: 'none',
+};
 
 const Language = (lang) => {
   const imgPath = require(`../../assets/languages/${lang.path}.png`).default;
@@ -15,7 +18,8 @@ const Language = (lang) => {
         </div>
         <div className={styles.languageInfo}>
           <div className='meta'>
-            <h3>{lang.label}
+            <h3>
+              <Link to={`docs/${lang.path}/intro`} style={style}>{lang.label}</Link>
             </h3>
             <p>{lang.defs}+ definitions</p>
           </div>
