@@ -35,7 +35,7 @@ const integer = 12345;
 
 ### In Conversation
 
-> A Javsacript integer is much like mathmatical numbers, the lines of a book, or anywhere or else that you can read some number characters!
+> A Javascript integer is much like mathematical numbers, the lines of a book, or anywhere or else that you can read some number characters!
 
 ---
 
@@ -43,9 +43,9 @@ const integer = 12345;
 
 ### Video Explainer
 
-import YoutubeEmbed from '../../_youtube-embed.mdx';
-import ExternalLink from '../../_external-link.mdx';
+import YoutubeEmbed from '../../\_youtube-embed.mdx';
+import ExternalLink from '../../\_external-link.mdx';
 
 <YoutubeEmbed
-  src='https://www.https://www.youtube.com/watch?v=Cda9N6C7l6Y'
+  src='https://www.youtube.com/embed/Cda9N6C7l6Y'
 />

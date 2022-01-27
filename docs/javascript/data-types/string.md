@@ -36,7 +36,7 @@ const string = 'this is a string';
 
 ### In Conversation
 
-> A Javsacript string is much like text on a billboard, the lines of a book, or anywhere or else that you can read some text characters!
+> A Javascript string is much like text on a billboard, the lines of a book, or anywhere or else that you can read some text characters!
 
 ---
 
