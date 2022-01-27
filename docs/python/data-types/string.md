@@ -31,7 +31,7 @@ Extra care should be taken when working with string and number data types togeth
 ### In Code
 
 ```py
-string = "Hello this is a string"
+string = "Hello, this is a string!"
 ```
 
 ### In Conversation
@@ -44,8 +44,8 @@ string = "Hello this is a string"
 
 ### Video Explainer
 
-import YoutubeEmbed from '../../_youtube-embed.mdx';
-import ExternalLink from '../../_external-link.mdx';
+import YoutubeEmbed from '../../\_youtube-embed.mdx';
+import ExternalLink from '../../\_external-link.mdx';
 
 <YoutubeEmbed
   src='https://www.youtube.com/embed/k9TUPpGqYTo'
