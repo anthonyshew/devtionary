@@ -22,7 +22,7 @@ Extra care should be taken when working with string and number data types togeth
 
 ## Advanced
 
-`String` objects and `String` primitives are quite similar in JavaScript and can usually be used interchangeably. There are situations in which differences will be found. However, these disparities are minimal.
+`String` objects and `String` primitives are quite similar in Python and can usually be used interchangeably. There are situations in which differences will be found. However, these disparities are minimal.
 
 ---
 
@@ -30,13 +30,13 @@ Extra care should be taken when working with string and number data types togeth
 
 ### In Code
 
-```js
-const string = 'this is a string';
+```py
+string = "Hello this is a string"
 ```
 
 ### In Conversation
 
-> A Javascript string is much like text on a billboard, the lines of a book, or anywhere or else that you can read some text characters!
+> A Python string is much like text on a billboard, the lines of a book, or anywhere or else that you can read some text characters!
 
 ---
 
@@ -48,14 +48,5 @@ import YoutubeEmbed from '../../_youtube-embed.mdx';
 import ExternalLink from '../../_external-link.mdx';
 
 <YoutubeEmbed
-  src='https://www.youtube.com/embed/09BwruU4kiY'
+  src='https://www.youtube.com/embed/k9TUPpGqYTo'
 />
-
-### Links
-
-<div>
-  <ExternalLink
-    href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
-    label='MDN - String'
-  />
-</div>

@@ -82,6 +82,10 @@ const config = {
                 label: "C#",
                 to: "/docs/csharp/intro",
               },
+              {
+                label: "Pyhon",
+                to: "/docs/python/intro",
+              }
             ],
           },
           {

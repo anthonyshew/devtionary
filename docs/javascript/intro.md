@@ -15,3 +15,4 @@ sidebar_position: 1
 _Data Types_
 
 [String](/docs/javascript/data-types/string)
+[Integers](/docs/javascript/data-types/integer)

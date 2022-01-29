@@ -13,7 +13,8 @@ const defFileType = '.md';
 const languageColors = {
   clojure: "#A6E16E",
   javascript: "#FFF3A7",
-  csharp: "#D171C8"
+  csharp: "#D171C8",
+  "python": "#F9F9F9",
 };
 
 // =========================================================
